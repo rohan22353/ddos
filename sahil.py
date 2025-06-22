@@ -11,12 +11,12 @@ from threading import Thread
 loop = asyncio.get_event_loop()
 
 # Bot token
-TOKEN = '7882486339:AAHQPcNzrljpVtfCE-VPL1cKVapGKThom0Y'
+TOKEN = '8108912927:AAFiaRA5WcPePg75sI_XilzqPqLq3I1XZZs'
 bot = telebot.TeleBot(TOKEN)
 REQUEST_INTERVAL = 1
 
 # Admins list
-ADMIN_IDS = [6140560467]  # Replace with actual admin user IDs
+ADMIN_IDS = [6764612288]  # Replace with actual admin user IDs
 
 # File to store user information
 USERS_FILE = 'users.txt'
@@ -27,7 +27,7 @@ blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
 # To store running processes
 running_processes = []
 
-CREATOR = "This File Is Made By @SahilModzOwner"  #DON'T CHANGE THIS WARNA ERROR AYEGA 100%
+CREATOR = "This File Is Made By Dhananjay"  #DON'T CHANGE THIS WARNA ERROR AYEGA 100%
 
 # Async function to run attack command
 async def run_attack_command_on_codespace(target_ip, target_port, duration):
